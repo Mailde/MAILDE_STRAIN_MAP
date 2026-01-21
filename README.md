@@ -4,7 +4,7 @@
 
 ## Overview
 
-This code computes and visualizes **local surface strain** in metallic slab systems
+This code computes and visualizes **surface strain** in metallic slab systems
 (e.g. Cu–Au alloys) stored in an ASE database. Two complementary strain measures are
 evaluated:
 
