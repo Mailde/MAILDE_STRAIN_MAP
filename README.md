@@ -1,4 +1,4 @@
-# Atomic-Scale Strain Mapping for Au/Cu Alloy Slabs
+# Atomic-Scale Strain Mapping 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
