@@ -513,23 +513,6 @@ Before large-scale analysis:
 
 ---
 
-# Citation Guidance
-
-If used in published work, cite:
-
-* ASE,
-* SciPy,
-* Shapely,
-* Matplotlib,
-* cmcrameri.
-
-Also describe:
-
-* projected surface-plane methodology,
-* reference bond calibration,
-* local strain definition.
-
----
 
 # Author Notes
 
