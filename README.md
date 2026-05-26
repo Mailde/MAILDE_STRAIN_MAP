@@ -116,11 +116,12 @@ The method is sensitive to:
 
 ## Strain Definition
 
+## Strain Definition
+
 Strain is reported as the percentage deviation of a measured local geometric quantity from its reference value:
 
-$$
+```math
 \varepsilon(\%) = 100 \times \frac{X - X_{\mathrm{ref}}}{X_{\mathrm{ref}}}
-$$
 
 where:
 
