@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Robust ASE-based workflows for projected atomic-scale strain analysis in alloyed Au/Cu slab systems with adsorbate-aware visualization, periodic replication, and publication-grade plotting.
+Robust ASE-based workflows for projected atomic-scale strain analysis in alloyed Au/Cu slab systems (as an example) with adsorbate-aware visualization, periodic replication, and publication-grade plotting.
 
 This repository contains two complementary strain-analysis pipelines:
 
