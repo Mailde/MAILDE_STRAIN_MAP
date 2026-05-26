@@ -116,8 +116,6 @@ The method is sensitive to:
 
 ## Strain Definition
 
-## Strain Definition
-
 Strain is reported as the percentage deviation of a measured local geometric quantity from its reference value:
 
 ```math
@@ -168,38 +166,6 @@ where:
 {A_{\mathrm{trimer,ref}}}
 ```
 
-where:
-
-- `A_trimer` is the projected trimer triangle area.
-- `A_trimer,ref` is the reference trimer area computed from reference bond lengths using Heron's formula.
-
-All distances and areas are computed after projection into the fitted local surface plane. This ensures geometric consistency between:
-- bond strain,
-- Voronoi area strain,
-- trimer area strain,
-- visualization coordinates.
-- 
-
-
-
-- \(X\) is the measured projected quantity in the fitted surface-plane basis.
-- \(X_{\mathrm{ref}}\) is the corresponding reference value.
-- Positive strain means net local expansion.
-- Negative strain means net local compression.
-
-For bond strain:
-
-$$
-\varepsilon_{\mathrm{bond}}(\%) =
-100 \times \frac{d - d_{\mathrm{ref}}}{d_{\mathrm{ref}}}
-$$
-
-For Voronoi area strain:
-
-$$
-\varepsilon_{\mathrm{Voronoi}}(\%) =
-100 \times \frac{A_{\mathrm{Voronoi}} - A_{\mathrm{ref}}}{A_{\mathrm{ref}}}
-$$
 
 
 ## Outputs
