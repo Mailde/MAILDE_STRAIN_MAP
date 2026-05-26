@@ -181,6 +181,7 @@ $$
 \varepsilon_{\mathrm{trimer}}(\%) =
 100 \times \frac{A_{\mathrm{trimer}} - A_{\mathrm{trimer,ref}}}{A_{\mathrm{trimer,ref}}}
 $$
+
 Reference areas are computed using Heron's formula from elemental/mixed bond references.
 
 ## Supported Trimer Classes
