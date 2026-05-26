@@ -24,7 +24,7 @@ The projected local strain methodology implemented in this repository is related
 
 If you use this methodology, please cite:
 
-1. Ozório, M. S., Nygaard, M. F., & Rossmeisl, J.  
+1. Ozório, M. S. & Rossmeisl, J.  
    *Stable and Active AuCu and AuPd Electrocatalysts for Platinum-Free Oxygen Reduction Reaction: Design Principles from Ligand–Strain Coupling and Gold Surface Segregation.*  
    ChemRxiv Preprint.  
    https://doi.org/10.26434/chemrxiv.15002997/v1
