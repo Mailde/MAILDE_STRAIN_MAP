@@ -116,14 +116,71 @@ The method is sensitive to:
 
 ## Strain Definition
 
+## Strain Definition
+
 Strain is reported as the percentage deviation of a measured local geometric quantity from its reference value:
 
 ```math
 \varepsilon(\%) =
 100 \times
 \frac{X - X_{\mathrm{ref}}}{X_{\mathrm{ref}}}
+```
 
 where:
+
+- `X` is the measured projected quantity in the fitted surface-plane basis.
+- `X_ref` is the corresponding reference value.
+- Positive strain corresponds to net local expansion.
+- Negative strain corresponds to net local compression.
+
+### Bond Strain
+
+```math
+\varepsilon_{\mathrm{bond}}(\%) =
+100 \times
+\frac{d - d_{\mathrm{ref}}}{d_{\mathrm{ref}}}
+```
+
+where:
+
+- `d` is the projected nearest-neighbor bond length.
+- `d_ref` is the reference alloy or elemental bond length.
+
+### Voronoi Area Strain
+
+```math
+\varepsilon_{\mathrm{Voronoi}}(\%) =
+100 \times
+\frac{A_{\mathrm{Voronoi}} - A_{\mathrm{ref}}}{A_{\mathrm{ref}}}
+```
+
+where:
+
+- `A_Voronoi` is the projected Voronoi-cell area.
+- `A_ref` is the elemental reference Voronoi area for a close-packed surface lattice.
+
+### Trimer Area Strain
+
+```math
+\varepsilon_{\mathrm{trimer}}(\%) =
+100 \times
+\frac{A_{\mathrm{trimer}} - A_{\mathrm{trimer,ref}}}
+{A_{\mathrm{trimer,ref}}}
+```
+
+where:
+
+- `A_trimer` is the projected trimer triangle area.
+- `A_trimer,ref` is the reference trimer area computed from reference bond lengths using Heron's formula.
+
+All distances and areas are computed after projection into the fitted local surface plane. This ensures geometric consistency between:
+- bond strain,
+- Voronoi area strain,
+- trimer area strain,
+- visualization coordinates.
+- 
+
+
 
 - \(X\) is the measured projected quantity in the fitted surface-plane basis.
 - \(X_{\mathrm{ref}}\) is the corresponding reference value.
