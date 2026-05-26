@@ -30,7 +30,7 @@ If you use this methodology, please cite:
    https://doi.org/10.26434/chemrxiv.15002997/v1
 
 2. Related atomic-scale alloy strain and catalytic structure analysis work published in *Journal of Catalysis* (2024, 2025):  
-   https://www.sciencedirect.com/science/article/pii/S0021951724001970, https://doi.org/10.1016/j.jcat.2025.115988
+   https://doi.org/10.1016/j.jcat.2024.115484, https://doi.org/10.1016/j.jcat.2025.115988
 
 The present implementation extends related local strain-analysis concepts to:
 - projected bond strain,
@@ -90,7 +90,7 @@ Both workflows provide:
 
 ---
 
-# Method 1 — Voronoi Area Strain Mapping
+# Method 1: Voronoi Area Strain Mapping
 
 File:
 `atomic_scale_strain_mapping_voronoi_with_OH_O_markers.py`
@@ -164,7 +164,7 @@ Includes:
 
 ---
 
-# Method 2 — Trimer Area Strain Mapping
+# Method 2: Trimer Area Strain Mapping
 
 File:
 `atomic_scale_mapping_trimer_with_adsorbate_markers.py`
