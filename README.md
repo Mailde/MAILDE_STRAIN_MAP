@@ -18,6 +18,32 @@ Files:
 
 ---
 
+## Methodology Background
+
+The projected local strain methodology implemented in this repository is related to atomistic strain analysis and ligand-strain coupling approaches used in electrocatalysis and atomic-scale surface science.
+
+If you use this methodology, please cite:
+
+1. Ozório, M. S., Nygaard, M. F., & Rossmeisl, J.  
+   *Stable and Active AuCu and AuPd Electrocatalysts for Platinum-Free Oxygen Reduction Reaction: Design Principles from Ligand–Strain Coupling and Gold Surface Segregation.*  
+   ChemRxiv Preprint.  
+   https://doi.org/10.26434/chemrxiv.15002997/v1
+
+2. Related atomic-scale alloy strain and catalytic structure analysis work published in *Journal of Catalysis* (2024):  
+   https://www.sciencedirect.com/science/article/pii/S0021951724001970
+
+3. Ozório, M. S., Nygaard, M. F., & Rossmeisl, J.  
+   *Competitive strain modulation of oxygen reduction reaction in monolayer binary alloy surfaces.*  
+   Journal of Catalysis 443, 115988 (2025).  
+   https://doi.org/10.1016/j.jcat.2025.115988
+
+The present implementation extends related local strain-analysis concepts to:
+- projected bond strain,
+- projected Voronoi-area strain,
+- projected trimer-area strain,
+- adsorbate-aware atomic-scale surface mapping
+in fitted surface-plane coordinates.
+
 # Scientific Purpose
 
 These scripts quantify net local geometric strain in alloyed Au/Cu surfaces (example) obtained from atomistic simulations stored in ASE databases (`.db`).
