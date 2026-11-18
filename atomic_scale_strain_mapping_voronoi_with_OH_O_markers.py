@@ -3,6 +3,27 @@
 """
 Atomic-scale strain mapping for Au/Cu slab ASE databases.
 
+If you use this code, in whole or in part, in work that leads to a publication,
+please cite the following articles:
+
+1. Ozório, M. S.; Rossmeisl, J. Stable and Active AuCu and AuPd
+   Electrocatalysts for Platinum-Free Oxygen Reduction Reaction: Design
+   Principles from Ligand–Strain Coupling and Gold Surface Segregation.
+   *ACS Catal.* **2026**, *16* (17), 17075–17089.
+   https://doi.org/10.1021/acscatal.6c04024
+
+2. Ozório, M. S.; Nygaard, M. F.; Rossmeisl, J. Competitive strain modulation
+   of oxygen reduction reaction in monolayer binary alloy surfaces.
+   *J. Catal.* **2025**, 115988.
+   https://doi.org/10.1016/j.jcat.2025.115988
+
+3. Ozório, M. S.; Nygaard, M. F.; Petersen, A. S.; Behm, R. J.; Rossmeisl, J.
+   Self-induced long-range surface strain improves oxygen reduction reaction.
+   *J. Catal.* **2024**, *433*, 115484.
+   https://doi.org/10.1016/j.jcat.2024.115484
+
+   
+
 Upgrades relative to the original script
 ----------------------------------------
 1. ASE-native row selection: uses db.select() rows directly.
