@@ -20,15 +20,25 @@ Files:
 
 The projected local strain methodology implemented in this repository is related to atomistic strain analysis and ligand-strain coupling approaches used in electrocatalysis and atomic-scale surface science.
 
-If you use this methodology, please cite:
+If you use this code, in whole or in part, in work that leads to a publication,
+please cite the following articles:
 
-1. Ozório, M. S. & Rossmeisl, J.  
-   *Stable and Active AuCu and AuPd Electrocatalysts for Platinum-Free Oxygen Reduction Reaction: Design Principles from Ligand–Strain Coupling and Gold Surface Segregation.*  
-   ChemRxiv Preprint.  
-   https://doi.org/10.26434/chemrxiv.15002997/v1
+1. Ozório, M. S.; Rossmeisl, J. Stable and Active AuCu and AuPd
+   Electrocatalysts for Platinum-Free Oxygen Reduction Reaction: Design
+   Principles from Ligand–Strain Coupling and Gold Surface Segregation.
+   *ACS Catal.* **2026**, *16* (17), 17075–17089.
+   https://doi.org/10.1021/acscatal.6c04024
 
-2. Related atomic-scale alloy strain and catalytic structure analysis work published in *Journal of Catalysis* (2024, 2025):  
-   https://doi.org/10.1016/j.jcat.2024.115484, https://doi.org/10.1016/j.jcat.2025.115988
+2. Ozório, M. S.; Nygaard, M. F.; Rossmeisl, J. Competitive strain modulation
+   of oxygen reduction reaction in monolayer binary alloy surfaces.
+   *J. Catal.* **2025**, 115988.
+   https://doi.org/10.1016/j.jcat.2025.115988
+
+3. Ozório, M. S.; Nygaard, M. F.; Petersen, A. S.; Behm, R. J.; Rossmeisl, J.
+   Self-induced long-range surface strain improves oxygen reduction reaction.
+   *J. Catal.* **2024**, *433*, 115484.
+   https://doi.org/10.1016/j.jcat.2024.115484
+   
 
 The present implementation extends related local strain-analysis concepts to:
 - projected bond strain,
